@@ -21,6 +21,7 @@ def setup():
     cube = L3D(this)
     cube.enableDrawing()
     cube.enablePoseCube()
+    cube.enableMulticastStreaming()
     
     reset_cube()
 
